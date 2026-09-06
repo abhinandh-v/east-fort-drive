@@ -1,0 +1,14 @@
+Lee Perry-Smith / Infinite-Realities human head scan and associated color and normal maps.
+License: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+
+Original scan: Lee Perry-Smith / Infinite-Realities.
+Format conversion credits: Morgan McGuire and Guedis Cardenas.
+GLB and texture distribution used: three.js example assets
+https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/LeePerrySmith
+License documentation: https://github.com/keijiro/InfiniteScan
+Archive: Morgan McGuire, Computer Graphics Archive, July 2017, https://casual-effects.com/data/
+
+Changes for this game: scaled and positioned on an original articulated clothed body; PBR material assigned using the scan's color and normal maps. No endorsement by the scan creator or subject is implied.
+
+The Defender-inspired SUV is an original procedural interpretation, not an official or licensed Land Rover model. No affiliation or endorsement is implied.
