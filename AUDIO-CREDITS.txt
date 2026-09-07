@@ -1,0 +1,20 @@
+Recorded sound sources used in East Fort Drive
+
+Engine and nearby traffic: "Car Engine Loop 96kHz, 4s" by qubodup.
+https://opengameart.org/content/car-engine-loop-96khz-4s
+Used under Creative Commons Attribution 3.0 (CC BY 3.0):
+https://creativecommons.org/licenses/by/3.0/
+Normalized WAV from the author's package. Playback pitch and gain vary in-game.
+This is a generic car recording, not a Defender engine recording.
+
+Rain: "Rain (loopable)" by Ylmir, first MP3 loop.
+https://opengameart.org/content/rain-loopable
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Volume changes between walking and driving.
+
+Footsteps: "Footsteps" by GboxMikeFozzy, 01-footstep and 02-footstep.
+https://opengameart.org/content/footsteps-0
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Alternating recordings with subtle randomized pitch; cadence follows walking/running.
+
+Horn, tire skid, door closing and impact Foley are original synthesized game effects, not field recordings. No claim is made that these recordings were captured in Trivandrum.

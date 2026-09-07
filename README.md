@@ -10,6 +10,10 @@ The human head scan and maps are by Lee Perry-Smith / Infinite-Realities under C
 
 ## Play
 
+### Sound update
+
+Click **Enable sound** (or press **M**) once to enable audio. M also mutes it. **H** sounds the horn while driving. Recorded engine audio changes pitch with speed and simulated shifts; nearby traffic fades with distance. Recorded footsteps follow walking/running, and recorded rain follows the monsoon toggle. Tire skid, door closing, horn and collision Foley complement the recordings. Pause or leaving the game tab silences playback. All audio is hosted with the game; see [audio credits](./AUDIO-CREDITS.txt). The engine is a generic recording, not a Defender-specific recording.
+
 [Play East Fort Drive](https://abhinandh-v.github.io/east-fort-drive/)
 
 Use **WASD / arrow keys** to move, **Space** to brake, **F** to enter or exit a nearby parked vehicle, **C** to change camera, **R** to recover to the road, and **Esc** to pause. The interface includes touch controls, a minimap and a day/night toggle.
