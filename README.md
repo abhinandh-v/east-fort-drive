@@ -1,37 +1,27 @@
-# East Fort Drive
+# East Fort Drive — 10 km Explorer
 
-A playable, stylized 3D browser game inspired by East Fort in Thiruvananthapuram, Kerala. Drive, walk, explore the market streets, and complete a three-stop delivery run.
+[Play the public browser game](https://abhinandh-v.github.io/east-fort-drive/)
 
-## Defender edition update
-
-The starting vehicle is an original Defender 110-inspired SUV with spare wheel, detailed alloy wheels and tire treads, glass, steering wheels, body roll, headlight beams and brake lights. Characters have proportioned clothed bodies, animated arms and legs, and a textured 3D head scan. The environment now includes a clouded sky, reflective vehicle materials, finer road/plaster surfaces, palm fronds, night streetlights and switchable monsoon rain with wet roads. C cycles through cameras, including a front-facing character view on foot. Shift runs.
-
-The human head scan and maps are by Lee Perry-Smith / Infinite-Realities under CC BY 3.0, scaled onto an original animated body. See `HUMAN-ASSET-CREDITS.txt` for attribution and links. This is a visual upgrade of a simplified browser game; it is still not photorealistic. The Defender interpretation is unofficial.
+Drive a Defender-inspired SUV on real OpenStreetMap roads within a **10 km radius of East Fort**, Thiruvananthapuram. The region contains 19,987 road sections and 165,687 building footprints. Nearby scenery is loaded into the scene as you travel. Google Maps imagery and data are not embedded.
 
 ## Play
 
-### Sound update
+WASD or arrows drive; Space brakes. F enters/exits your Defender, C cycles four cameras, Shift runs on foot, R recovers to the nearest road and repairs the car. M enables/mutes sound, H honks, Tab expands the map and Esc pauses. Touch movement and brake controls are included.
 
-Click **Enable sound** (or press **M**) once to enable audio. M also mutes it. **H** sounds the horn while driving. Recorded engine audio changes pitch with speed and simulated shifts; nearby traffic fades with distance. Recorded footsteps follow walking/running, and recorded rain follows the monsoon toggle. Tire skid, door closing, horn and collision Foley complement the recordings. Pause or leaving the game tab silences playback. All audio is hosted with the game; see [audio credits](./AUDIO-CREDITS.txt). The engine is a generic recording, not a Defender-specific recording.
+Choose one of eight journeys: Chalai courier, Museum taxi, NH 66 northbound, Coastal evening, Medical supplies, Southern highway ride, City explorer, and Across town express. Routes run from approximately 2 to 16 km of driving. Follow the mint route to amber checkpoints; stop for deliveries or drive through highway checkpoints. Timed tasks have a countdown. Completed journeys award money and a vehicle-condition bonus. Progress stays in this browser.
 
-[Play East Fort Drive](https://abhinandh-v.github.io/east-fort-drive/)
+Use **Ride NH 66** to start on the highway or **East Fort** to return home. Graphics & world contains Low/High/Ultra settings and four vehicle paint choices. Features include HDR reflections, a detailed SUV cabin and wheels, animated suspension/steering, scanned human faces, building windows at night, monsoon rain, vehicle damage, traffic and a road route map. Click Enable sound once for recorded engine, footsteps and rain, with synthesized horn/skid/impact/door effects.
 
-Use **WASD / arrow keys** to move, **Space** to brake, **F** to enter or exit a nearby parked vehicle, **C** to change camera, **R** to recover to the road, and **Esc** to pause. The interface includes touch controls, a minimap and a day/night toggle.
+## Geographic and visual scope
 
-## Scope and references
+The map uses OSM road geometry and building footprints projected into metre coordinates around 8.48275 N, 76.94765 E. The source database is supplied as [region.json](./region.json) under ODbL 1.0. Buildings have estimated heights and generated facades. Landmark architecture is interpreted, vegetation is generated, and terrain, bridges and junctions are flattened. Routing permits both directions for gameplay. This is a browser driving game, not a complete digital twin, a navigation service, or GTA V-quality photorealism. No building interiors, police, combat or multiplayer are included. Google Maps cannot be exported into this standalone game under its standard terms, so the reusable map source is OpenStreetMap.
 
-This is an original low-poly prototype, not a complete digital twin or a GTA V-equivalent game. Buildings, road placement, scale and architectural details are approximate. No building interiors, combat, police simulation, multiplayer or full-city map are included. Landmarks represented include the East Fort gateway, Padmanabhaswamy Temple frontage, Padmatheertham pond, Kuthiramalika, Chalai shops, Gandhi Park and the bus interchange.
+See [world and lighting credits](./WORLD-CREDITS.txt), [human asset credits](./HUMAN-ASSET-CREDITS.txt), and [audio credits](./AUDIO-CREDITS.txt). The generic engine recording is not Defender-specific. The vehicle interpretation is unofficial. Lighting uses a CC0 Poly Haven HDR image for reflections; it is not a photograph of Kerala.
 
-Google Maps search results were consulted for the temple's East Fort location. The interactive Maps and Street View imagery could not be verified during production; no Google map tiles, screenshots, imagery or proprietary game assets are distributed.
+## Source and validation
 
-- [Google Maps: East Fort](https://www.google.com/maps/search/?api=1&query=East+Fort+Thiruvananthapuram)
-- [East Fort context](https://en.wikipedia.org/wiki/East_Fort)
-- [Chalai context](https://en.wikipedia.org/wiki/Chala,_Thiruvananthapuram)
+The root hosts the compiled game; source.zip contains the editable project. Preserve its pnpm lockfile, install dependencies with pnpm, then run `./build.ps1` in PowerShell on Windows. `node serve.mjs` serves dist at the printed local address. The app uses Three.js and React and has no server-side gameplay component.
 
-## Source and build
+`node check-region.mjs` validates the 10 km boundary, graph connectivity, highway access and all eight mission routes against the actual data. `node check-expansion.mjs` checks initialization, driving, quick travel, recovery, walking, mission starts, map, weather, quality, pause and cleanup with a mocked renderer. `node check-audio.mjs` validates audio behavior with a mocked AudioContext. Browser integration status checks confirm the dataset and model/HDR loading; these are not a visual review or an audible listening test.
 
-The public site's root contains the compiled game. `source.zip` contains the editable project, including `app/world.js` (3D world and gameplay), `app/page.tsx` (interface), and `app/globals.css` (styles). The game has no backend and makes no gameplay network requests.
-
-Extract the source, install dependencies using pnpm, then run `./build.ps1` in PowerShell on Windows. Run `node serve.mjs` and visit the address it prints. The `dist` directory can be hosted on GitHub Pages or any static web host. `node check-game.mjs` runs gameplay smoke checks using a mocked renderer; it is not a visual browser test.
-
-Three.js, React and React DOM license notices are included with the playable distribution. Original game source and procedural assets are provided for the repository owner; no additional license is granted here.
+`prepare-map.mjs` rebuilds assets/region.json from the JSON downloaded by fetch-map.mjs. Map data is ODbL; human and audio licenses are in their credit files. React and Three.js license notices accompany the distribution.
