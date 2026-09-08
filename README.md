@@ -27,3 +27,9 @@ The root hosts the compiled game; source.zip contains the editable project. Pres
 `node check-region.mjs` validates the 10 km boundary, graph connectivity, highway access and all eight mission routes against the actual data. `node check-expansion.mjs` checks initialization, driving, quick travel, recovery, walking, mission starts, map, weather, quality, pause and cleanup with a mocked renderer. `node check-audio.mjs` validates audio behavior with a mocked AudioContext. Browser integration status checks confirm the dataset and model/HDR loading; these are not a visual review or an audible listening test.
 
 `prepare-map.mjs` rebuilds assets/region.json from the JSON downloaded by fetch-map.mjs. Map data is ODbL; human and audio licenses are in their credit files. React and Three.js license notices accompany the distribution.
+
+
+## Street life and OCTA-inspired cabin update
+Detailed cabin trim, working speed display, steering wheel and jointed hands, a seated scanned-face driver, fabric detail on people, feathered palm leaves, roadside tea/fruit/flower stalls with sellers. The cabin is an original interpretation informed by https://www.landrover.com/defender/defender-octa/index.html , not an exact factory model.
+F enters/exits any nearby car (12 traffic cars plus the Defender). Cars retain damage and stay parked after you leave them. Q equips/holsters a sidearm on foot; mouse aims, click/J fires, G reloads. Recorded gunshot audio, muzzle flashes, tracers, collision-aware ray hits, vehicle condition loss, and non-graphic pedestrian damage/fleeing. Sound requires M or the sound button.
+Humans still use generated bodies and a reused scanned head; they are not full-body photogrammetry. The OCTA-inspired V8 layer is synthesized over a generic engine recording, not an authentic OCTA recording. Map architecture and terrain limitations remain.

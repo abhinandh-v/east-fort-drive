@@ -18,3 +18,6 @@ CC0: https://creativecommons.org/publicdomain/zero/1.0/
 Alternating recordings with subtle randomized pitch; cadence follows walking/running.
 
 Horn, tire skid, door closing and impact Foley are original synthesized game effects, not field recordings. No claim is made that these recordings were captured in Trivandrum.
+
+Gunshot: CZ-52 recording by Tabasco / Vincent Sevedge (2009), https://opengameart.org/content/gunshot-sounds . The listing states CC0, but the downloaded archive specifies CC BY 3.0; attribution and https://creativecommons.org/licenses/by/3.0/ are retained. Edited to a one-second mono excerpt with high-pass filtering and a fade.
+OCTA-inspired V8 layer: original procedural engine synthesis mixed with the credited generic engine recording; not an authentic Defender OCTA recording.

@@ -26,3 +26,5 @@ button:disabled{opacity:.5;cursor:wait}.field{display:block;font-size:14px;line-
 @media(pointer:coarse){.map-panel:not(.expanded-map){left:14px;width:146px;bottom:246px}.map-panel:not(.expanded-map) canvas{width:100%;height:100%}}
 @media(max-height:650px) and (min-width:701px){.map-panel:not(.expanded-map){left:18px;width:166px;bottom:90px}}
 
+.foot-actions{position:absolute;right:22px;bottom:165px;display:flex;gap:6px;flex-wrap:wrap;max-width:310px;justify-content:flex-end}.foot-actions button{background:#172b2ee8;color:#edf1e7;border:1px solid #7b9690;padding:10px;border-radius:6px}.crosshair{pointer-events:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:white;font-size:28px;text-shadow:0 1px 3px #000}
+
