@@ -11,3 +11,18 @@ button:disabled{opacity:.5;cursor:wait}.field{display:block;font-size:14px;line-
 
 .dismiss-instructions{float:right;padding:0 5px;font-size:24px;line-height:1;border:0;background:none}.game-message{pointer-events:auto;display:flex;align-items:center;gap:12px}.game-message button{flex-shrink:0;padding:0 5px;border:0;background:none;font-size:23px}.top-actions{flex-wrap:wrap;justify-content:flex-end}.topbar{gap:20px}.top-actions button{pointer-events:auto}
 
+/* Circular corner radar; the expanded route map stays large and readable. */
+.map-panel:not(.expanded-map){left:20px;right:auto;bottom:92px;width:208px;border:0;border-radius:0;background:none;overflow:visible}
+.map-panel:not(.expanded-map) .radar-disc{position:relative;width:100%;aspect-ratio:1;padding:0;border:4px solid #1c252ad9;border-radius:50%;overflow:hidden;background:#172e32;box-shadow:0 0 0 1px #eef5e76b,0 8px 25px #0007}
+.map-panel:not(.expanded-map) canvas{width:100%;height:100%;display:block}
+.radar-open{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;border-radius:50%;background:transparent}
+.radar-open:hover{background:#ffffff08}.radar-open:focus-visible{outline:3px solid #f6bd62;outline-offset:-6px}
+.map-panel:not(.expanded-map) .radar-caption{height:0;padding:0;border:0}
+.map-panel:not(.expanded-map) .radar-caption button{display:none}
+.map-panel:not(.expanded-map) .radar-caption b{position:absolute;top:10px;left:50%;transform:translateX(-50%);font-size:12px;background:#14262bd9;border-radius:12px;padding:3px 7px;color:#fff5d5;pointer-events:none}
+.map-panel:not(.expanded-map) .map-credit{font-size:12px;text-align:center;padding:7px 0 0;background:none;text-shadow:0 1px 3px #000;white-space:nowrap}
+.expanded-map .radar-disc{padding:0;border:0}.expanded-map .radar-disc canvas{width:100%;height:auto;aspect-ratio:1}
+@media(max-width:700px){.map-panel:not(.expanded-map){left:14px;width:156px;bottom:108px}.map-panel:not(.expanded-map) .map-credit{font-size:10px}}
+@media(pointer:coarse){.map-panel:not(.expanded-map){left:14px;width:146px;bottom:246px}.map-panel:not(.expanded-map) canvas{width:100%;height:100%}}
+@media(max-height:650px) and (min-width:701px){.map-panel:not(.expanded-map){left:18px;width:166px;bottom:90px}}
+

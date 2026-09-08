@@ -6,7 +6,7 @@ Drive a Defender-inspired SUV on real OpenStreetMap roads within a **10 km radiu
 
 ## Play
 
-WASD or arrows drive; Space brakes. F enters/exits your Defender, C cycles five driving cameras, including a driver’s-seat view, Shift runs on foot, R recovers to the nearest road and repairs the car. M enables/mutes sound, H honks, Tab expands the map and Esc pauses. Touch movement and brake controls are included.
+WASD or arrows drive; Space brakes. F enters/exits your Defender, C cycles five driving cameras, including a driver’s-seat view, Shift runs on foot, R recovers to the nearest road and repairs the car. M enables/mutes sound, H honks, The circular radar sits at the lower-left edge; click it or press Tab to expand the map and Esc pauses. Touch movement and brake controls are included.
 
 Choose one of eight journeys: Chalai courier, Museum taxi, NH 66 northbound, Coastal evening, Medical supplies, Southern highway ride, City explorer, and Across town express. Routes run from approximately 2 to 16 km of driving. Follow the mint route to amber checkpoints; stop for deliveries or drive through highway checkpoints. Timed tasks have a countdown. Completed journeys award money and a vehicle-condition bonus. Progress stays in this browser.
 
