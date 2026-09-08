@@ -12,7 +12,7 @@ Choose one of eight journeys: Chalai courier, Museum taxi, NH 66 northbound, Coa
 
 Use **Ride NH 66** to start on the highway or **East Fort** to return home. Graphics & world contains Low/High/Ultra settings and four vehicle paint choices. Features include HDR reflections, a detailed SUV cabin and wheels, animated suspension/steering, scanned human faces, building windows at night, monsoon rain, vehicle damage, traffic and a road route map. Click Enable sound once for recorded engine, footsteps and rain, with synthesized horn/skid/impact/door effects.
 
-Use **Driver’s view** for the driving position inside the cabin. Trees are checked against all nearby roads, intersections and carriageways with a six-metre clearance beyond the road edge.
+Use **Driver’s view** for the driving position inside the cabin. Cabin glass is hidden in this camera to provide an unobstructed road view and restored for outside cameras. Instructions automatically hide after four seconds; **Clear instructions** or the close button dismisses them immediately. **Instructions / journeys** reopens the controls and journey selector. Trees are checked against all nearby roads, intersections and carriageways with a six-metre clearance beyond the road edge.
 
 ## Geographic and visual scope
 

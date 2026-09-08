@@ -9,3 +9,5 @@ button:disabled{opacity:.5;cursor:wait}.field{display:block;font-size:14px;line-
 
 .driver-view{position:absolute;right:34px;bottom:211px;font-size:14px;background:#16363edb}.driver-view[aria-pressed=true]{border-color:#f6bd62;color:#ffcf7c}@media(max-width:700px){.driver-view{right:18px;bottom:209px;font-size:12px;padding:8px}}@media(pointer:coarse){.driver-view{bottom:238px}}
 
+.dismiss-instructions{float:right;padding:0 5px;font-size:24px;line-height:1;border:0;background:none}.game-message{pointer-events:auto;display:flex;align-items:center;gap:12px}.game-message button{flex-shrink:0;padding:0 5px;border:0;background:none;font-size:23px}.top-actions{flex-wrap:wrap;justify-content:flex-end}.topbar{gap:20px}.top-actions button{pointer-events:auto}
+
