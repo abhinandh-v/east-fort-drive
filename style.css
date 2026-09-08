@@ -7,3 +7,5 @@ button:disabled{opacity:.5;cursor:wait}.field{display:block;font-size:14px;line-
 @media(pointer:coarse){.map-panel:not(.expanded-map){bottom:238px;width:150px}.map-panel:not(.expanded-map) canvas{width:148px;height:105px}.map-panel .map-credit{font-size:10px}.mission{max-height:calc(100vh - 520px);min-height:150px}.touch-controls{bottom:95px}.vehicle-status{bottom:212px}.speed{bottom:141px}.location{bottom:280px}.game-message{bottom:360px}.expanded-map{z-index:10}}
 @media(max-height:650px) and (min-width:701px){.mission{max-height:calc(100vh - 170px);width:255px}.map-panel:not(.expanded-map){left:295px;width:182px;bottom:95px}.map-panel:not(.expanded-map) canvas{width:180px;height:128px}.game-message{bottom:310px}.location{bottom:235px}}
 
+.driver-view{position:absolute;right:34px;bottom:211px;font-size:14px;background:#16363edb}.driver-view[aria-pressed=true]{border-color:#f6bd62;color:#ffcf7c}@media(max-width:700px){.driver-view{right:18px;bottom:209px;font-size:12px;padding:8px}}@media(pointer:coarse){.driver-view{bottom:238px}}
+
