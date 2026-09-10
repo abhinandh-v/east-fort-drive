@@ -39,3 +39,6 @@ Traffic and village update: car-shaped collision footprints, overlap separation,
 
 
 Clear roads and instant travel: complete building footprints are checked against every nearby road segment and road width, including crossing roads and road endpoints. Overlapping buildings are omitted from both rendering and collisions; the source map database stays intact. Go to location opens a persistent selector with 15 destinations and a Go instantly button. Travel retains the current car, uses a free road arrival point and ends the active journey.
+
+
+Handling and suspension update: progressive speed-sensitive steering with automatic centring, wheelbase-based turning and a lateral-grip limit, smoother acceleration and coasting, service braking before reverse, separate handbrake, and reduced wet/loose-surface grip. Defender suspension uses independent damped wheel movement with body heave, braking dive, acceleration pitch and cornering roll. Road roughness is simulated over the existing flat terrain. S brakes/reverses; Space is the handbrake.
