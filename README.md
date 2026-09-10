@@ -16,7 +16,7 @@ Use **Driver’s view** for the driving position inside the cabin. Cabin glass i
 
 ## Geographic and visual scope
 
-The map uses OSM road geometry and building footprints projected into metre coordinates around 8.48275 N, 76.94765 E. The source database is supplied as [region.json](./region.json) under ODbL 1.0. Buildings have estimated heights and generated facades. Landmark architecture is interpreted, vegetation is generated, and terrain, bridges and junctions are flattened. Routing permits both directions for gameplay. This is a browser driving game, not a complete digital twin, a navigation service, or GTA V-quality photorealism. No building interiors, police, combat or multiplayer are included. Google Maps cannot be exported into this standalone game under its standard terms, so the reusable map source is OpenStreetMap.
+The map uses OSM road geometry and building footprints projected into metre coordinates around 8.48275 N, 76.94765 E. The source database is supplied as [region.json](./region.json) under ODbL 1.0. Buildings have estimated heights and generated facades. Landmark architecture is interpreted, vegetation is generated, and terrain, bridges and junctions are flattened. Routing permits both directions for gameplay. This is a browser driving game, not a complete digital twin, a navigation service, or GTA V-quality photorealism. No building interiors, police or multiplayer are included. Google Maps cannot be exported into this standalone game under its standard terms, so the reusable map source is OpenStreetMap.
 
 See [world and lighting credits](./WORLD-CREDITS.txt), [human asset credits](./HUMAN-ASSET-CREDITS.txt), and [audio credits](./AUDIO-CREDITS.txt). The generic engine recording is not Defender-specific. The vehicle interpretation is unofficial. Lighting uses a CC0 Poly Haven HDR image for reflections; it is not a photograph of Kerala.
 
@@ -42,3 +42,7 @@ Clear roads and instant travel: complete building footprints are checked against
 
 
 Handling and suspension update: progressive speed-sensitive steering with automatic centring, wheelbase-based turning and a lateral-grip limit, smoother acceleration and coasting, service braking before reverse, separate handbrake, and reduced wet/loose-surface grip. Defender suspension uses independent damped wheel movement with body heave, braking dive, acceleration pitch and cornering roll. Road roughness is simulated over the existing flat terrain. S brakes/reverses; Space is the handbrake.
+
+## Sport handling and surface effects
+
+Direct, speed-sensitive steering, stronger dry-road grip and firm, damped suspension reduce float. Loose ground adds gradual rolling resistance without an abrupt speed cap. Grass and gravel have different synthesized tyre and footstep sounds, with a bounded spray of gravel and grass behind moving tyres. This is sport-inspired game tuning, not a factory BMW physics model. Press M to enable sound.
