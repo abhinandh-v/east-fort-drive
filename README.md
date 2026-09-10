@@ -36,3 +36,6 @@ Humans still use generated bodies and a reused scanned head; they are not full-b
 
 
 Traffic and village update: car-shaped collision footprints, overlap separation, reversing escape and forward-only yielding. Three fictional Kerala-inspired villages (Coconut Grove, Garden Village and Southern Hamlet), each with 20 homes, gardens and village quick travel. The online indicator uses a separate anonymous presence service when configured; it reports unavailable when no service is connected. It counts active browsers, not multiplayer avatars.
+
+
+Clear roads and instant travel: complete building footprints are checked against every nearby road segment and road width, including crossing roads and road endpoints. Overlapping buildings are omitted from both rendering and collisions; the source map database stays intact. Go to location opens a persistent selector with 15 destinations and a Go instantly button. Travel retains the current car, uses a free road arrival point and ends the active journey.
