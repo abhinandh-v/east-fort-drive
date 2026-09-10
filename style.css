@@ -28,3 +28,5 @@ button:disabled{opacity:.5;cursor:wait}.field{display:block;font-size:14px;line-
 
 .foot-actions{position:absolute;right:22px;bottom:165px;display:flex;gap:6px;flex-wrap:wrap;max-width:310px;justify-content:flex-end}.foot-actions button{background:#172b2ee8;color:#edf1e7;border:1px solid #7b9690;padding:10px;border-radius:6px}.crosshair{pointer-events:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:white;font-size:28px;text-shadow:0 1px 3px #000}
 
+.online-count{color:#a4dfbe;font-size:13px;padding:8px 10px;white-space:nowrap;border:1px solid #52756b;border-radius:20px;background:#17322bb8}
+
