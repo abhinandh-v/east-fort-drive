@@ -12,3 +12,7 @@ Archive: Morgan McGuire, Computer Graphics Archive, July 2017, https://casual-ef
 Changes for this game: scaled and positioned on an original articulated clothed body; PBR material assigned using the scan's color and normal maps. No endorsement by the scan creator or subject is implied.
 
 The Defender-inspired SUV is an original procedural interpretation, not an official or licensed Land Rover model. No affiliation or endorsement is implied.
+
+Anatomical forearms and hands: adapted from MakeHuman community base mesh. CC0 1.0 (explicit September 2020 asset release). Source: https://github.com/makehumancommunity/makehuman/blob/master/makehuman/data/3dobjs/base.obj
+License: https://github.com/makehumancommunity/makehuman/blob/master/LICENSE.ASSETS.md
+Adaptations: cropped forearm/hand, coordinate remapping, steering-grip deformation. Clothing geometry, stitching and procedural microtextures are generated for East Fort Drive. Full body is generated clothing geometry with scanned head and anatomical arms, not a full-body scan.

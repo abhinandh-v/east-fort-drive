@@ -46,3 +46,7 @@ Handling and suspension update: progressive speed-sensitive steering with automa
 ## Sport handling and surface effects
 
 Direct, speed-sensitive steering, stronger dry-road grip and firm, damped suspension reduce float. Loose ground adds gradual rolling resistance without an abrupt speed cap. Grass and gravel have different synthesized tyre and footstep sounds, with a bounded spray of gravel and grass behind moving tyres. This is sport-inspired game tuning, not a factory BMW physics model. Press M to enable sound.
+
+## Detailed character and new outfit
+
+The player and driver wear an olive field shirt, dark denim, a belt, wristwatch and layered shoes, with sewn seams, pockets, cuffs and fabric microtextures. Pedestrians receive the same detailed construction in different colours. Anatomical five-finger hands and forearms are adapted from the CC0 MakeHuman mesh; the existing scanned head is retained with adjusted proportions. Steering grips are shaped around the wheel. This combines generated clothing, anatomical arm meshes and a scanned face; it is not a cinematic full-body scan.
